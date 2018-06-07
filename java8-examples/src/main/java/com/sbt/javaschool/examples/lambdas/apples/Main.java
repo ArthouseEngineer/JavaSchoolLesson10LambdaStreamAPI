@@ -1,6 +1,7 @@
 package com.sbt.javaschool.examples.lambdas.apples;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 public class Main {
@@ -21,9 +22,6 @@ public class Main {
 
         System.out.println("Only green apples");
         System.out.println(AppleUtils.filterApples(inventory, new GreenApplesPredicate()));
-
-        System.out.println("Printing");
-        AppleUtils.doWithApples(inventory, System.out::println);
 
 
 
